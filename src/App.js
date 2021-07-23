@@ -13,8 +13,6 @@ export default function App() {
         "https://taco-randomizer.herokuapp.com/random/?full-tack=true"
       );
       const data = await response.json();
-      console.log("App.js-16:", data);
-      console.log("App.js-17:", data.shell);
       setTaco({ ...data });
     } catch (err) {
       console.log(err);
