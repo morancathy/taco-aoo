@@ -1,9 +1,11 @@
 .App {
   font-family: sans-serif;
   text-align: center;
-}
-
-.tacos {
+  margin: 30px;
+  border: solid green;
+  border-width: 15px;
+  padding: 30px;
+  background-color: #E0FFFF;
 }
 
 .tacos > p {
@@ -12,11 +14,13 @@
 
 .tacos > h4 {
   color: blue;
-  /* text-align: left; */
+  margin: 50px 0px -5px 0px;
 }
 
-.tacoName {
-  text-decoration: underline;
+.tacos > h4 > span{
   color: red;
 }
-/* shouldn't .tacoName be red since it is last on the sheet??*/
+
+.title {
+  color: #3CB371;
+}
